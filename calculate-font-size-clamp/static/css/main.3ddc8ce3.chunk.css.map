@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,KACE,QAAS,CACT,wBACF,CAEA,EACE,UACF,CAEA,GACE,0CACF","file":"main.3ddc8ce3.chunk.css","sourcesContent":["body {\n  margin: 0;\n  background-color: #2b2c3b;\n}\n\na {\n  color: #ffffff;\n}\n\nh1 {\n  font-size: clamp(1.4rem, 0.5000rem + 4.0000vw, 3.5rem);\n}\n"]}
