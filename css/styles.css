@@ -41,6 +41,10 @@ body {
   text-align: center;
 }
 
+.page-title {
+	font-size: clamp(1.8rem, 1.0000rem + 6.4000vw, 5.8rem);
+}
+
 .image-caption {
   font-size: 1.2rem;
 }
