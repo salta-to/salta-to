@@ -28,42 +28,6 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm publish
+      - run: npx @11ty/eleventy
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-
-
-name: Build Eleventy
-
-on:
-  push:
-    branches:
-      - master
-
-jobs:
-  build:
-    runs-on: ubuntu-20.04
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Install dependencies & build
-        run: |
-          npm ci
-          npx @11ty/eleventy
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./_site
-          github_token: ${{ secrets.GITHUB_TOKEN }}
