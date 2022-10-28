@@ -1,0 +1,21 @@
+{
+  "title": "salta.to",
+  "url": "https://salta.to/",
+  "language": "en",
+  "description": "Personal playground for web development projects.",
+  "feed": {
+    "subtitle": "Personal playground for web development projects.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://salta.to/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://salta.to/feed/feed.json"
+  },
+  "author": {
+    "name": "Joop Laan",
+    "email": "joop@salta.to",
+    "url": "https://salta.to/about-me/"
+  }
+}
