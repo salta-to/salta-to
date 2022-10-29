@@ -45,6 +45,9 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
 }
+header, footer, .small-view, .wide-view {
+  padding: 1rem;
+}
 p,
 .tmpl-post li {
   line-height: 1.45;
@@ -123,7 +126,6 @@ img {
   padding: 0;
   list-style: none;
   float: left;
-  margin-left: 1em;
 }
 .nav-item {
   display: inline-block;
@@ -146,16 +148,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  counter-increment: start-from -1;
   line-height: 1.8;
 }
-.postlist-item:before {
-  display: inline-block;
-  pointer-events: none;
-  content: "" counter(start-from, decimal-leading-zero) ". ";
-  line-height: 100%;
-  text-align: right;
-}
+
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
@@ -246,7 +241,20 @@ a[href].direct-link:focus:visited,
   color: #aaa;
 }
 
+.postlist-item {
+  display: flex;
+  /*grid-template-columns: 5rem 15rem 10rem;*/
+
+}
+
+@media (min-width: 325px) {
+  .nav {
+    margin-left: 1em;
+  }
+}
+
 @media (min-width: 37rem) {
+
   .small-view {
     max-width: 37rem;
     margin: 0 auto;
