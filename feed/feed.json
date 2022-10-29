@@ -10,6 +10,12 @@
     "url": "https://salta.to/about-me/"
   },
   "items": [{
+      "id": "https://salta.to/posts/2022-10-31-some-post-with-a-really-long-title-to-test-design/",
+      "url": "https://salta.to/posts/2022-10-31-some-post-with-a-really-long-title-to-test-design/",
+      "title": "Some post with a really long title to test the design",
+      "content_html": "<div class=\"small-view\">\n<p>Testing design with really long post title</p>\n</div>\n",
+      "date_published": "2022-10-31T00:00:00Z"
+    },{
       "id": "https://salta.to/posts/2022-10-30-and-go/",
       "url": "https://salta.to/posts/2022-10-30-and-go/",
       "title": "And go!",

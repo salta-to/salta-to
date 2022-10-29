@@ -144,12 +144,6 @@ img {
   list-style: none;
   padding: 0;
 }
-.postlist-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  line-height: 1.8;
-}
 
 .postlist-date,
 .postlist-item:before {
@@ -243,13 +237,41 @@ a[href].direct-link:focus:visited,
 
 .postlist-item {
   display: flex;
-  /*grid-template-columns: 5rem 15rem 10rem;*/
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: stretch;
+  align-items: baseline;
+  line-height: 2;
+}
 
+.archive-list-date,
+.archive-list-title,
+.archive-list-tags {
+  display: inline-flex;
+}
+.archive-list-title {
+  word-break: break-all;
 }
 
 @media (min-width: 325px) {
   .nav {
     margin-left: 1em;
+  }
+  .postlist-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    align-items: baseline;
+    line-height: 2;
+  }
+  .archive-list-date,
+  .archive-list-title,
+  .archive-list-tags {
+    display: inline-flex;
+  }
+  .archive-list-title {
+    word-break: break-all;
   }
 }
 
