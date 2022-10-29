@@ -45,11 +45,6 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
 }
-
-p:last-child {
-  margin-bottom: 0;
-}
-
 p,
 .tmpl-post li {
   line-height: 1.45;
@@ -61,15 +56,12 @@ a[href] {
 a[href]:visited {
   color: var(--text-color-link-visited);
 }
-
-main {
-  padding: 1rem;
-}
 main :first-child {
   margin-top: 0;
 }
 header {
   border-bottom: 1px dashed var(--color-gray-20);
+  margin-block-end: 2rem;
 }
 header:after {
   content: "";
@@ -112,9 +104,12 @@ code {
   word-break: break-all;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Header */
 .home {
-  padding: 0 1rem;
   float: left;
   margin: 1rem 0; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
@@ -249,6 +244,13 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+@media (min-width: 37rem) {
+  .small-view {
+    max-width: 37rem;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 60rem) {
