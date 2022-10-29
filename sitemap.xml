@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://salta.to/tags/another-tag/</loc>
+    <loc>https://salta.to/tags/second-tag/</loc>
     <lastmod>2022-10-28</lastmod>
   </url>
   
@@ -57,82 +57,12 @@
   </url>
   
   <url>
-    <loc>https://salta.to/tags/second-tag/</loc>
+    <loc>https://salta.to/tags/another-tag/</loc>
     <lastmod>2022-10-28</lastmod>
   </url>
   
   <url>
     <loc>https://salta.to/tags/posts-with-two-tags/</loc>
     <lastmod>2022-10-28</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/404/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/about/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/page-list/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/posts/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/tags/another-tag/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/tags/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/tags/number-2/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/tags/posts-with-two-tags/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/tags/second-tag/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/posts/firstpost/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/posts/fourthpost/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/posts/secondpost/</loc>
-    <lastmod>2022-10-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/_/site/posts/thirdpost/</loc>
-    <lastmod>2022-10-29</lastmod>
   </url>
 </urlset>

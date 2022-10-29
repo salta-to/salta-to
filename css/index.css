@@ -1,6 +1,6 @@
 /* Defaults */
 :root {
-  --font-family: -apple-system, system-ui, sans-serif;
+  --font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
@@ -49,11 +49,7 @@ body {
 p:last-child {
   margin-bottom: 0;
 }
-p,
-.tmpl-post li,
-img {
-  max-width: 37.5em; /* 600px /16 */
-}
+
 p,
 .tmpl-post li {
   line-height: 1.45;
@@ -254,3 +250,11 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+
+@media (min-width: 60rem) {
+  .wide-view {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+}
+
