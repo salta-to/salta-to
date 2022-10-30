@@ -13,7 +13,7 @@
       "id": "https://salta.to/posts/2022-10-31-some-post-with-a-really-long-title-to-test-design/",
       "url": "https://salta.to/posts/2022-10-31-some-post-with-a-really-long-title-to-test-design/",
       "title": "Some post with a really long title to test the design",
-      "content_html": "<div class=\"small-view\">\n<p>Testing design with really long post title</p>\n</div>\n",
+      "content_html": "<p><img src=\"https://salta.to/img/senior-woman-eating-ice-cream-id-419064.jpg\" alt=\"Senior woman eating an ice-cream\" /></p>\n<div class=\"small-view\">\n<p>Testing design with really long post title</p>\n</div>\n",
       "date_published": "2022-10-31T00:00:00Z"
     },{
       "id": "https://salta.to/posts/2022-10-30-and-go/",

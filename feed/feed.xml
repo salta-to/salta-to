@@ -17,7 +17,8 @@
 		<link href="https://salta.to/posts/2022-10-31-some-post-with-a-really-long-title-to-test-design/"/>
 		<updated>2022-10-31T00:00:00Z</updated>
 		<id>https://salta.to/posts/2022-10-31-some-post-with-a-really-long-title-to-test-design/</id>
-		<content type="html">&lt;div class=&quot;small-view&quot;&gt;
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://salta.to/img/senior-woman-eating-ice-cream-id-419064.jpg&quot; alt=&quot;Senior woman eating an ice-cream&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;small-view&quot;&gt;
 &lt;p&gt;Testing design with really long post title&lt;/p&gt;
 &lt;/div&gt;
 </content>
