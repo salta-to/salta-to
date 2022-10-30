@@ -165,7 +165,8 @@ img {
 .postlist-item-active .postlist-link {
   font-weight: bold;
 }
-.tmpl-home .postlist-link {
+.tmpl-home .postlist-link,
+.tmpl-page .postlist-link {
   font-size: 1.1875em; /* 19px /16 */
   font-weight: 700;
 }
