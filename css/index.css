@@ -71,7 +71,7 @@ header {
 }
 footer {
   border-top: 1px dashed var(--color-gray-20);
-  margin-block-start: 2rem;
+  margin-block-start: 4rem;
 }
 table {
   margin: 1em 0;
@@ -145,7 +145,6 @@ img {
   font-weight: 700;
   text-decoration: underline;
 }
-
 .page-footer {
   padding: 2rem 0;
 }
