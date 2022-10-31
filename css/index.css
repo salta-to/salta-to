@@ -69,6 +69,10 @@ header {
   border-bottom: 1px dashed var(--color-gray-20);
   margin-block-end: 2rem;
 }
+footer {
+  border-top: 1px dashed var(--color-gray-20);
+  margin-block-start: 2rem;
+}
 table {
   margin: 1em 0;
 }
@@ -110,8 +114,11 @@ img {
 }
 
 /* Header */
+.page-header {
+  display: flex;
+}
+
 .home {
-  float: left;
   margin: 1rem 0; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
   font-weight: 700;
@@ -122,10 +129,11 @@ img {
 
 /* Nav */
 .nav {
+  margin-left: 1em;
   padding: 0;
   list-style: none;
-  float: left;
 }
+
 .nav-item {
   display: inline-block;
   margin-right: 1em;
@@ -138,6 +146,9 @@ img {
   text-decoration: underline;
 }
 
+.page-footer {
+  padding: 2rem 0;
+}
 .spacer {
   height: 1rem;
 }
@@ -257,9 +268,6 @@ a[href].direct-link:focus:visited,
 }
 
 @media (min-width: 325px) {
-  .nav {
-    margin-left: 1em;
-  }
   .postlist-item {
     display: flex;
     flex-wrap: wrap;

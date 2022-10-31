@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full screen API</title>
+    <meta name="description" content="Trying out the Full screen API">
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="salta.to">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="salta.to">
+  </head>
+  <body>
+    <div class="wide-view">
+      <header class="page-header">
+        <div class="home"><a href="/">salta.to</a></div>
+        <ul class="nav">
+          <li class="nav-item"><a href="/">Home</a></li>
+          <li class="nav-item"><a href="/posts/">Archive</a></li>
+          <li class="nav-item"><a href="/about/">About</a></li>
+        </ul>
+      </header>
+    </div>
+    <main class="tmpl-post">
+      <div class="small-view">
+  <h1>Full screen API</h1>
+
+  <time datetime="2022-11-01">1 Nov 2022</time>
+  <a href="/tags/test/" class="post-tag">test</a>
+  <a href="/tags/api/" class="post-tag">API</a>
+</div>
+
+<div class="small-view">
+<p>Simple way to make the window full screen.</p>
+<p><button onclick="toggleFullScreen()">Toggle full screen</button></p>
+<p>Press button or press Enter to make this window full screen. Press button, ESC or Enter again to exit full screen.</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API">Documentation Fullscreen API</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API#browser_compatibility">Browser compatibility</a></li>
+<li><a href="#source">Source</a></li>
+</ul>
+</div>
+<p><img src="/img/vintage-car-field-id-3092017.jpg" alt="Vintage car on a field"></p>
+<div class="small-view">
+<h2 id="source" tabindex="-1">Source <a class="direct-link" href="#source" aria-hidden="true">#</a></h2>
+<p>Javascript:</p>
+<pre class="language-js"><code class="language-js">document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">"keydown"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><br>  <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>key <span class="token operator">===</span> <span class="token string">"Enter"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token function">toggleFullScreen</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br><span class="token keyword">function</span> <span class="token function">toggleFullScreen</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>document<span class="token punctuation">.</span>fullscreenElement<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span><span class="token function">requestFullscreen</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>document<span class="token punctuation">.</span>exitFullscreen<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    document<span class="token punctuation">.</span><span class="token function">exitFullscreen</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+</div>
+<script type="text/javascript" src="/js/example-fullscreen-api.js"></script>
+
+
+<div class="small-view">
+  <ul><li>Previous: <a href="/posts/2022-10-31-some-post-with-a-really-long-title-to-test-design/">Some post with a really long title to test the design</a></li>
+  </ul>
+</div>
+
+    </main>
+
+    <div class="wide-view">
+      <footer class="page-footer">&copy; salta.to <script>document.write(new Date().getFullYear())</script></footer>
+    <div class="wide-view">
+    <!-- Current page: /posts/2022-11-01-full-screen-api/ -->
+
+  </body>
+</html>

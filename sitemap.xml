@@ -37,6 +37,11 @@
   </url>
   
   <url>
+    <loc>https://salta.to/tags/api/</loc>
+    <lastmod>2022-10-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://salta.to/posts/2022-10-29-hello-world/</loc>
     <lastmod>2022-10-29</lastmod>
   </url>
@@ -49,5 +54,10 @@
   <url>
     <loc>https://salta.to/posts/2022-10-31-some-post-with-a-really-long-title-to-test-design/</loc>
     <lastmod>2022-10-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/posts/2022-11-01-full-screen-api/</loc>
+    <lastmod>2022-11-01</lastmod>
   </url>
 </urlset>
