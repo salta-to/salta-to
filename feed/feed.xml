@@ -35,7 +35,7 @@
 &lt;li&gt;the map is zoomed to the adres&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;address-information&quot; tabindex=&quot;-1&quot;&gt;Address information &lt;a class=&quot;direct-link&quot; href=&quot;https://salta.to/posts/2022-11-02-geolocation-api/#address-information&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;div id=&quot;address&quot; style=&quot;visibility: hidden; background-color: grey; color: blue;margin-bottom: 3rem; padding: 2rem;&quot;&gt;
+&lt;div id=&quot;address&quot; style=&quot;visibility: hidden; background-color: hotpink; color: black;margin-bottom: 3rem; padding: 2rem;&quot;&gt;
 &lt;/div&gt;
 &lt;div id=&quot;map&quot; class=&quot;map&quot; tabindex=&quot;0&quot;&gt;&lt;/div&gt;
 &lt;div class=&quot;btns-zoom&quot;&gt;
