@@ -265,7 +265,9 @@ a[href].direct-link:focus:visited,
 .archive-list-title {
   word-break: break-all;
 }
-
+pre[class*="language-"] {
+  padding: 1em 1em;
+}
 @media (min-width: 325px) {
   .postlist-item {
     display: flex;
