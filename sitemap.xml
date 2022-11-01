@@ -32,17 +32,17 @@
   </url>
   
   <url>
-    <loc>https://salta.to/tags/getting-started/</loc>
-    <lastmod>2022-10-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salta.to/tags/web-dev/</loc>
     <lastmod>2022-10-28</lastmod>
   </url>
   
   <url>
     <loc>https://salta.to/tags/api/</loc>
+    <lastmod>2022-10-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/tags/getting-started/</loc>
     <lastmod>2022-10-28</lastmod>
   </url>
   
