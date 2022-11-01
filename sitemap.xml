@@ -27,17 +27,22 @@
   </url>
   
   <url>
-    <loc>https://salta.to/tags/test/</loc>
-    <lastmod>2022-10-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salta.to/tags/getting-started/</loc>
     <lastmod>2022-10-28</lastmod>
   </url>
   
   <url>
+    <loc>https://salta.to/tags/web-dev/</loc>
+    <lastmod>2022-10-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://salta.to/tags/api/</loc>
+    <lastmod>2022-10-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/tags/test/</loc>
     <lastmod>2022-10-28</lastmod>
   </url>
   
@@ -58,6 +63,11 @@
   
   <url>
     <loc>https://salta.to/posts/2022-11-01-full-screen-api/</loc>
+    <lastmod>2022-11-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/posts/2022-11-02-geolocation-api/</loc>
     <lastmod>2022-11-01</lastmod>
   </url>
 </urlset>
