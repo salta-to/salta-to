@@ -65,8 +65,6 @@ document.getElementById('zoom-in').onclick = function () {
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
-  } else {
-    x.innerHTML = "Geolocation not supported by this browser";
   }
 }
 
