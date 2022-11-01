@@ -15,7 +15,7 @@ var map = new ol.Map({
 });
 
 function simpleReverseGeocoding(lon, lat) {
-  fetch('http://nominatim.openstreetmap.org/reverse?format=json&lon=' + lon + '&lat=' + lat)
+  fetch('https://nominatim.openstreetmap.org/reverse?format=json&lon=' + lon + '&lat=' + lat)
   .then(function(response) {
     if(!response.ok) {
       throw new Error("Response not ok");
