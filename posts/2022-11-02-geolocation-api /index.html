@@ -3,16 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full screen API</title>
-    <meta name="description" content="Trying out the Full screen API">
-    
-    
+    <title>Geolocation API</title>
+    <meta name="description" content="Trying out the Geolocation API">
+
+    <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="/css/prism-diff.css">
-    <link rel="stylesheet" href="/css/index.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="salta.to">
     <link rel="alternate" href="/feed/feed.json" type="application/json" title="salta.to">
-    <script defer data-domain="salta.to" src="https://plausible.io/js/script.js"></script>
   </head>
   <body>
     <div class="wide-view">
@@ -27,7 +25,7 @@
     </div>
     <main class="tmpl-post">
       <div class="small-view">
-  <h1>Full screen API</h1>
+  <h1>Geolocation API</h1>
 
   <time datetime="2022-11-01">1 Nov 2022</time>
   <a href="/tags/test/" class="post-tag">test</a>
@@ -35,8 +33,7 @@
 </div>
 
 <div class="small-view">
-<p>Simple way to make the window full screen.</p>
-<p><button onclick="toggleFullScreen()">Toggle full screen</button></p>
+<div id="geo-demo"></div>
 <p>Press button or press Enter to make this window full screen. Press button, ESC or Enter again to exit full screen.</p>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API">Documentation Fullscreen API</a></li>
@@ -50,11 +47,11 @@
 <p>Javascript:</p>
 <pre class="language-js"><code class="language-js">document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">"keydown"</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><br>  <span class="token keyword">if</span> <span class="token punctuation">(</span>e<span class="token punctuation">.</span>key <span class="token operator">===</span> <span class="token string">"Enter"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token function">toggleFullScreen</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br><span class="token keyword">function</span> <span class="token function">toggleFullScreen</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>document<span class="token punctuation">.</span>fullscreenElement<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span><span class="token function">requestFullscreen</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>document<span class="token punctuation">.</span>exitFullscreen<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    document<span class="token punctuation">.</span><span class="token function">exitFullscreen</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
 </div>
-<script type="text/javascript" src="/js/example-fullscreen-api.js"></script>
+<script type="text/javascript" src="/js/example-geolocation-api.js"></script>
 
 
 <div class="small-view">
-  <ul><li>Next: <a href="/posts/2022-11-02-geolocation-api/">Geolocation API</a></li><li>Previous: <a href="/posts/2022-10-31-some-post-with-a-really-long-title-to-test-design/">Some post with a really long title to test the design</a></li>
+  <ul><li>Previous: <a href="/posts/2022-11-01-full-screen-api/">Full screen API</a></li>
   </ul>
 </div>
 
@@ -63,7 +60,7 @@
     <div class="wide-view">
       <footer class="page-footer">&copy; salta.to <script>document.write(new Date().getFullYear())</script></footer>
     <div class="wide-view">
-    <!-- Current page: /posts/2022-11-01-full-screen-api/ -->
+    <!-- Current page: /posts/2022-11-02-geolocation-api / -->
 
   </body>
 </html>

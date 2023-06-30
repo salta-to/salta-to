@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video header</title>
+    <meta name="description" content="Playing with the FavQs API">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="salta.to">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="salta.to">
+    <script defer data-domain="salta.to" src="https://plausible.io/js/script.js"></script>
+  </head>
+  <body>
+    <div class="wide-view">
+      <header class="page-header">
+        <h1 class="home"><a href="/">salta.to</a></h1>
+        <ul class="nav">
+          <li class="nav-item"><a href="/">Home</a></li>
+          <li class="nav-item"><a href="/posts/">Archive</a></li>
+          <li class="nav-item"><a href="/about/">About</a></li>
+        </ul>
+      </header>
+    </div>
+    <div class="header-video">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&loop=1&mute=1" frameborder="0" allowfullscreen></iframe>
+      <div class="content">
+        <h1>Header with Background Video</h1>
+        <p>This is an example of a header with a background YouTube video.</p>
+      </div>
+    </div>
+    <main class="tmpl-video-header">
+      <div class="small-view">
+  <h1>Video header</h1>
+
+  <time datetime="2023-05-05">5 May 2023</time>
+  <a href="/tags/web-dev/" class="post-tag">web dev</a>
+  <a href="/tags/video/" class="post-tag">video</a>
+</div>
+
+<div class="small-view">
+  <div id="quote"></div>
+<p><a href="https://favqs.com/">FavQs</a>  allows you to collect, discover, and share your favorite quotes. Creating an account is free, and using their API is also free. The [terms of use](API Terms of Service) are reasonable and okay.</p>
+<h2 id="using-the-api" tabindex="-1">Using the API <a class="direct-link" href="#using-the-api" aria-hidden="true">#</a></h2>
+<h3 id="qotd" tabindex="-1">QOTD <a class="direct-link" href="#qotd" aria-hidden="true">#</a></h3>
+<p>The API can used without an account or a token for the Quote of the day:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">curl</span> https://favqs.com/api/qotd</code></pre>
+<h3 id="example-result" tabindex="-1">Example result <a class="direct-link" href="#example-result" aria-hidden="true">#</a></h3>
+<pre class="language-bash"><code class="language-bash"><span class="token punctuation">{</span><br>  <span class="token string">"qotd_date"</span><span class="token builtin class-name">:</span> <span class="token string">"2014-07-04T03:00:00.000-05:00"</span>,<br>  <span class="token string">"quote"</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span><br>    <span class="token string">"id"</span><span class="token builtin class-name">:</span> <span class="token number">17025</span>,<br>    <span class="token string">"favorites_count"</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,<br>    <span class="token string">"dialogue"</span><span class="token builtin class-name">:</span> false,<br>    <span class="token string">"favorite"</span><span class="token builtin class-name">:</span> false,<br>    <span class="token string">"tags"</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span><br>      <span class="token string">"equality"</span>,<br>      <span class="token string">"men"</span><br>    <span class="token punctuation">]</span>,<br>    <span class="token string">"url"</span><span class="token builtin class-name">:</span> <span class="token string">"http://localhost:3000/quotes/abraham-lincoln/17025-fourscore-and-"</span>,<br>    <span class="token string">"upvotes_count"</span><span class="token builtin class-name">:</span> <span class="token number">1</span>,<br>    <span class="token string">"downvotes_count"</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,<br>    <span class="token string">"author"</span><span class="token builtin class-name">:</span> <span class="token string">"Abraham Lincoln"</span>,<br>    <span class="token string">"author_permalink"</span><span class="token builtin class-name">:</span> <span class="token string">"abraham-lincoln"</span>,<br>    <span class="token string">"body"</span><span class="token builtin class-name">:</span> <span class="token string">"Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal."</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<h2 id="plain-vanilla-javascript-with-api" tabindex="-1">Plain vanilla JavaScript with API <a class="direct-link" href="#plain-vanilla-javascript-with-api" aria-hidden="true">#</a></h2>
+</div>
+<script type="text/javascript" src="/js/favqs.js"></script>
+
+
+<div class="small-view">
+  <ul><li>Previous: <a href="/posts/2023-01-23-favqs-api/">FavQs API</a></li>
+  </ul>
+</div>
+
+    </main>
+
+    <div class="wide-view">
+      <footer class="page-footer">&copy; salta.to <script>document.write(new Date().getFullYear())</script></footer>
+    <div class="wide-view">
+    <!-- Current page: /posts/2023-05-05-video-header/ -->
+
+  </body>
+</html>

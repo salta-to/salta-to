@@ -260,7 +260,7 @@ a[href].direct-link:focus:visited,
 .archive-list-date,
 .archive-list-title,
 .archive-list-tags {
-  display: inline-flex;
+  display: initial;
 }
 .archive-list-title {
   word-break: break-all;
@@ -278,12 +278,14 @@ pre[class*="language-"] {
     line-height: 2;
   }
   .archive-list-date,
-  .archive-list-title,
-  .archive-list-tags {
-    display: inline-flex;
+  .archive-list-title {
+    display: initial;
+    flex: 2;
   }
+
   .archive-list-title {
     word-break: break-all;
+    flex: 8;
   }
 }
 
@@ -302,3 +304,47 @@ pre[class*="language-"] {
   }
 }
 
+#quote {
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+  min-height: 6vh;
+  height: auto;
+}
+
+blockquote {
+  border-left: 4px solid var(--color-gray-50);
+  margin-left: 0;
+  border-inline-start: 4px solid #aaa;
+  padding-inline-start: 1.75rem;
+
+}
+
+
+.header-video {
+  position: relative;
+  height: 30vh;
+  overflow: hidden;
+}
+.header-video iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.header-video .content {
+  position: relative;
+  z-index: 1;
+/*  color: white;*/
+  text-align: center;
+  padding-top: 15vh;
+}
+.header-video h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+.header-video p {
+  font-size: 2rem;
+}
