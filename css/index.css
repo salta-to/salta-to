@@ -166,8 +166,6 @@ img {
   word-spacing: -0.5px;
 }
 .postlist-link {
-  padding-left: .25em;
-  padding-right: .25em;
   text-underline-position: from-font;
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
@@ -248,20 +246,11 @@ a[href].direct-link:focus:visited,
   color: #aaa;
 }
 
-.postlist-item {
-  display: flex;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
-  justify-content: stretch;
-  align-items: baseline;
-  line-height: 2;
+.archive-list-item {
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
-.archive-list-date,
-.archive-list-title,
-.archive-list-tags {
-  display: initial;
-}
 .archive-list-title {
   word-break: break-all;
 }
@@ -269,27 +258,24 @@ pre[class*="language-"] {
   padding: 1em 1em;
 }
 @media (min-width: 325px) {
-  .postlist-item {
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    justify-content: stretch;
-    align-items: baseline;
-    line-height: 2;
-  }
-  .archive-list-date,
   .archive-list-title {
-    display: initial;
-    flex: 2;
-  }
-
-  .archive-list-title {
-    word-break: break-all;
-    flex: 8;
+    word-break: break-word;
   }
 }
 
 @media (min-width: 37rem) {
+
+  .archive-list-item {
+    display: initial;
+    margin-bottom: 0;
+  }
+
+  .postlist-item {
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr 1fr;
+    grid-column-gap: 0.2rem;
+    grid-row-gap: 0.2rem;
+  }
 
   .small-view {
     max-width: 37rem;
