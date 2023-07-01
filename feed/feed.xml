@@ -5,32 +5,12 @@
 	
 	<link href="https://salta.to/feed/feed.xml" rel="self"/>
 	<link href="https://salta.to/"/>
-	<updated>2023-05-05T00:00:00Z</updated>
+	<updated>2023-01-23T00:00:00Z</updated>
 	<id>https://salta.to/</id>
 	<author>
 		<name>Joop Laan</name>
 		<email>joop@salta.to</email>
 	</author>
-	
-	<entry>
-		<title>Video header</title>
-		<link href="https://salta.to/posts/2023-05-05-video-header/"/>
-		<updated>2023-05-05T00:00:00Z</updated>
-		<id>https://salta.to/posts/2023-05-05-video-header/</id>
-		<content type="html">&lt;div class=&quot;small-view&quot;&gt;
-  &lt;div id=&quot;quote&quot;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;https://favqs.com/&quot;&gt;FavQs&lt;/a&gt;  allows you to collect, discover, and share your favorite quotes. Creating an account is free, and using their API is also free. The [terms of use](API Terms of Service) are reasonable and okay.&lt;/p&gt;
-&lt;h2 id=&quot;using-the-api&quot; tabindex=&quot;-1&quot;&gt;Using the API &lt;a class=&quot;direct-link&quot; href=&quot;https://salta.to/posts/2023-05-05-video-header/#using-the-api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;qotd&quot; tabindex=&quot;-1&quot;&gt;QOTD &lt;a class=&quot;direct-link&quot; href=&quot;https://salta.to/posts/2023-05-05-video-header/#qotd&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The API can used without an account or a token for the Quote of the day:&lt;/p&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; https://favqs.com/api/qotd&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;example-result&quot; tabindex=&quot;-1&quot;&gt;Example result &lt;a class=&quot;direct-link&quot; href=&quot;https://salta.to/posts/2023-05-05-video-header/#example-result&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token string&quot;&gt;&quot;qotd_date&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;2014-07-04T03:00:00.000-05:00&quot;&lt;/span&gt;,&lt;br /&gt;  &lt;span class=&quot;token string&quot;&gt;&quot;quote&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;17025&lt;/span&gt;,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;favorites_count&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;dialogue&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; false,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;favorite&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; false,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;tags&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;br /&gt;      &lt;span class=&quot;token string&quot;&gt;&quot;equality&quot;&lt;/span&gt;,&lt;br /&gt;      &lt;span class=&quot;token string&quot;&gt;&quot;men&quot;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;url&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;http://localhost:3000/quotes/abraham-lincoln/17025-fourscore-and-&quot;&lt;/span&gt;,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;upvotes_count&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;downvotes_count&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;author&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Abraham Lincoln&quot;&lt;/span&gt;,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;author_permalink&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;abraham-lincoln&quot;&lt;/span&gt;,&lt;br /&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;body&quot;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&quot;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;plain-vanilla-javascript-with-api&quot; tabindex=&quot;-1&quot;&gt;Plain vanilla JavaScript with API &lt;a class=&quot;direct-link&quot; href=&quot;https://salta.to/posts/2023-05-05-video-header/#plain-vanilla-javascript-with-api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://salta.to/js/favqs.js&quot;&gt;&lt;/script&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>FavQs API</title>

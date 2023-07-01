@@ -47,11 +47,6 @@
   </url>
   
   <url>
-    <loc>https://salta.to/tags/video/</loc>
-    <lastmod>2022-10-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salta.to/posts/2022-10-29-hello-world/</loc>
     <lastmod>2022-10-29</lastmod>
   </url>
@@ -79,10 +74,5 @@
   <url>
     <loc>https://salta.to/posts/2023-01-23-favqs-api/</loc>
     <lastmod>2023-01-23</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://salta.to/posts/2023-05-05-video-header/</loc>
-    <lastmod>2023-05-05</lastmod>
   </url>
 </urlset>
