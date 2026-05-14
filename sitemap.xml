@@ -12,11 +12,6 @@
   </url>
   
   <url>
-    <loc>https://salta.to/</loc>
-    <lastmod>2022-10-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salta.to/page-list/</loc>
     <lastmod>2022-10-28</lastmod>
   </url>
@@ -47,6 +42,21 @@
   </url>
   
   <url>
+    <loc>https://salta.to/tags/ceylan/</loc>
+    <lastmod>2022-10-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/tags/macos/</loc>
+    <lastmod>2022-10-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/tags/announcements/</loc>
+    <lastmod>2022-10-28</lastmod>
+  </url>
+  
+  <url>
     <loc>https://salta.to/posts/2022-10-29-hello-world/</loc>
     <lastmod>2022-10-29</lastmod>
   </url>
@@ -69,5 +79,20 @@
   <url>
     <loc>https://salta.to/posts/2022-11-02-geolocation-api/</loc>
     <lastmod>2022-11-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/posts/2026-05-14-introducing-ceylan/</loc>
+    <lastmod>2026-05-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/</loc>
+    <lastmod>2026-05-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/ceylan/</loc>
+    <lastmod>2026-05-14</lastmod>
   </url>
 </urlset>

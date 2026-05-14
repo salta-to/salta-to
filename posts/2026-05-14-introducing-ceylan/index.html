@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducing Ceylan</title>
+    <meta name="description" content="A private translator for literary work, made on a small Mac in Amsterdam Noord.">
+    
+    
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="salta.to">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="salta.to">
+  </head>
+  <body>
+    <div class="wide-view">
+      <header class="page-header">
+        <div class="home"><a href="/">salta.to</a></div>
+        <ul class="nav">
+          <li class="nav-item"><a href="/">Home</a></li>
+          <li class="nav-item"><a href="/posts/">Archive</a></li>
+          <li class="nav-item"><a href="/ceylan/">Ceylan</a></li>
+          <li class="nav-item"><a href="/about/">About</a></li>
+        </ul>
+      </header>
+    </div>
+    <main class="tmpl-post">
+      <div class="small-view">
+  <h1>Introducing Ceylan</h1>
+
+  <time datetime="2026-05-14">14 May 2026</time>
+  <a href="/tags/ceylan/" class="post-tag">ceylan</a>
+  <a href="/tags/macos/" class="post-tag">macOS</a>
+  <a href="/tags/announcements/" class="post-tag">announcements</a>
+</div>
+
+<p><img src="/img/antelope-2.jpg" alt="Antelope"></p>
+<div class="small-view">
+<p>Today I'm releasing <strong>Ceylan</strong>, a macOS app for translating long, careful texts entirely on your own machine. No cloud, no accounts, no telemetry — your words never leave the Mac in front of you.</p>
+<p>Ceylan started as a favor. A friend — Ahu, a literary translator — needed to translate drafts of unpublished writing and (rightly) didn't want to paste them into anyone's web form. The free tools all wanted her text in exchange for the translation. So I built her something that didn't.</p>
+<h2 id="what-s-in-it" tabindex="-1">What's in it <a class="direct-link" href="#what-s-in-it" aria-hidden="true">#</a></h2>
+<p>Three on-device engines you can switch between per passage:</p>
+<ul>
+<li><strong>Apple Translation</strong> — instant, offline once language packs are downloaded. Great for first drafts.</li>
+<li><strong>MLX models</strong> — translation-tuned local models (TranslateGemma, Qwen) running on Apple Silicon. Better literary nuance.</li>
+<li><strong>Ollama</strong> — if you already run it, Ceylan plugs into local models like aya-expanse for the heaviest, most considered output.</li>
+</ul>
+<p>None of them call out to the internet while translating.</p>
+<p>On top of that: side-by-side Review mode, a Glossary that locks character names across the whole document, searchable local History, live word/character counts, and import/export for Pages, Word, RTF and Markdown. Sixteen languages, paired any direction.</p>
+<h2 id="privacy-in-one-paragraph" tabindex="-1">Privacy in one paragraph <a class="direct-link" href="#privacy-in-one-paragraph" aria-hidden="true">#</a></h2>
+<p>No analytics. No telemetry. No accounts. No internet calls during translation. Model downloads are one-time, straight from Hugging Face or Ollama's registry. Everything else lives in <code>~/Library/Application Support/Ceylan/</code> on your own machine. Delete the app and your work goes with it.</p>
+<h2 id="try-it" tabindex="-1">Try it <a class="direct-link" href="#try-it" aria-hidden="true">#</a></h2>
+<p>Ceylan is free and requires macOS 14.4 or later.</p>
+<ul>
+<li><a href="/ceylan/">Read the full page →</a></li>
+<li><a href="/downloads/Ceylan.dmg">Download Ceylan.dmg</a></li>
+</ul>
+<p>Made with ❤️ in Amsterdam Noord. For everyone whose drafts deserve a quieter desk.</p>
+</div>
+
+
+<div class="small-view">
+  <ul><li>Previous: <a href="/posts/2022-11-02-geolocation-api/">Geolocation API</a></li>
+  </ul>
+</div>
+
+    </main>
+
+    <div class="wide-view">
+      <footer class="page-footer">&copy; salta.to 2022<script>document.write(' – '); document.write(new Date().getFullYear());</script></footer>
+    <div class="wide-view">
+    <!-- Current page: /posts/2026-05-14-introducing-ceylan/ -->
+
+  </body>
+</html>

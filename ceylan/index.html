@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylan — a private translator for literary work</title>
+    <meta name="description" content="Ceylan is a macOS app for translating long, careful texts. It runs entirely on your Mac — your words never leave your device.">
+    
+    
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="salta.to">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="salta.to">
+  </head>
+  <body>
+    <div class="wide-view">
+      <header class="page-header">
+        <div class="home"><a href="/">salta.to</a></div>
+        <ul class="nav">
+          <li class="nav-item"><a href="/">Home</a></li>
+          <li class="nav-item"><a href="/posts/">Archive</a></li>
+          <li class="nav-item nav-item-active"><a href="/ceylan/">Ceylan</a></li>
+          <li class="nav-item"><a href="/about/">About</a></li>
+        </ul>
+      </header>
+    </div>
+    <main class="tmpl-page">
+      <p><img src="/img/antelope.jpg" alt="Antelope"></p>
+<div class="small-view ceylan">
+<h1 id="ceylan" tabindex="-1">Ceylan <a class="direct-link" href="#ceylan" aria-hidden="true">#</a></h1>
+<p>A private translator for literary work, made on a small Mac in Amsterdam Noord.</p>
+<p class="ceylan-cta">
+  <a class="ceylan-download" href="/downloads/Ceylan.dmg">Download Ceylan</a>
+  <span class="ceylan-meta">Requires macOS 14.4 or later · Free</span>
+</p>
+<p class="ceylan-checksum">
+  <span class="ceylan-checksum-label">SHA-256</span>
+  <code>36152b4544c74772c86eb5c5afc81bfb61e8c511fc4cc9fba0b8f7eb4c3b1764</code>
+</p>
+<h2 id="what-it-is" tabindex="-1">What it is <a class="direct-link" href="#what-it-is" aria-hidden="true">#</a></h2>
+<p>Ceylan is a macOS app for translating long, careful texts. It runs entirely on your Mac — your words never leave your device, never touch a cloud, never train someone else's model.</p>
+<p>It was built for one person first: Ahu, a literary translator who didn't want her drafts of unpublished writing pasted into anyone's web form. From that small starting point grew the rest.</p>
+<h2 id="why-it-exists" tabindex="-1">Why it exists <a class="direct-link" href="#why-it-exists" aria-hidden="true">#</a></h2>
+<p>Most translation tools today are good at speed and bad at intimacy. They want your text, your patterns, your edits — and quietly turn them into training data, ad signals, or worse.</p>
+<p>Literary work deserves better. A poem, a short story, an essay that hasn't yet been read by another human — that should not be the second-best customer of a free API.</p>
+<p>Ceylan starts from the opposite premise: your text is yours. It stays on this Mac, in this room, with you.</p>
+<h2 id="how-it-works" tabindex="-1">How it works <a class="direct-link" href="#how-it-works" aria-hidden="true">#</a></h2>
+<p>Three on-device engines, free to mix:</p>
+<ul>
+<li><strong>Apple Translation</strong> — Apple's built-in translator, instant, available offline once language packs are downloaded. Best for first drafts and short passages.</li>
+<li><strong>MLX models</strong> — Apple's own ML framework runs translation-tuned models (TranslateGemma, Qwen) locally on Apple Silicon. Better literary nuance than Apple Translation.</li>
+<li><strong>Ollama</strong> — for power users who already run Ollama, Ceylan plugs into local models like aya-expanse. Heaviest, most nuanced, slowest.</li>
+</ul>
+<p>Switch engines per passage. None of them call out to the internet during translation.</p>
+<h2 id="for-literary-work" tabindex="-1">For literary work <a class="direct-link" href="#for-literary-work" aria-hidden="true">#</a></h2>
+<p>Ceylan was shaped around the rhythms of actual translation:</p>
+<ul>
+<li>Side-by-side <strong>Review</strong> mode aligns source and translation paragraph by paragraph, so you can refine without losing your place.</li>
+<li><strong>Glossary</strong> locks character names and recurring terms (&quot;Ayşe → Ayşe&quot;, &quot;Mehmet → Mike&quot;) across every paragraph, every session.</li>
+<li><strong>History</strong> keeps every translation locally, searchable, never synced.</li>
+<li>Word and character counts update live, per chunk, like a writer's status bar.</li>
+<li>Pages, Word, RTF, Markdown import and export — meet the file you already have.</li>
+<li>Turkish, Dutch, English, French, German, Spanish, Italian, Portuguese, Polish, Russian, Greek, Arabic, Hebrew, Chinese, Japanese, Korean — sixteen languages, paired any direction.</li>
+</ul>
+<h2 id="privacy-in-one-paragraph" tabindex="-1">Privacy in one paragraph <a class="direct-link" href="#privacy-in-one-paragraph" aria-hidden="true">#</a></h2>
+<p>No analytics. No telemetry. No accounts. No internet calls during translation. Model downloads (one-time) go directly to Hugging Face or Ollama's registry. Everything else lives in <code>~/Library/Application Support/Ceylan/</code> on your own machine. If you delete the app, your work goes with it. That's the whole story.</p>
+<hr>
+<p class="ceylan-cta">
+  <a class="ceylan-download" href="/downloads/Ceylan.dmg">Download Ceylan</a>
+  <span class="ceylan-meta">Requires macOS 14.4 or later · Free</span>
+</p>
+<p class="ceylan-checksum">
+  <span class="ceylan-checksum-label">SHA-256</span>
+  <code>36152b4544c74772c86eb5c5afc81bfb61e8c511fc4cc9fba0b8f7eb4c3b1764</code>
+</p>
+<p class="ceylan-footnote">Made with ❤️ in Amsterdam Noord. For everyone whose drafts deserve a quieter desk.</p>
+</div>
+
+
+
+    </main>
+
+    <div class="wide-view">
+      <footer class="page-footer">&copy; salta.to 2022<script>document.write(' – '); document.write(new Date().getFullYear());</script></footer>
+    <div class="wide-view">
+    <!-- Current page: /ceylan/ -->
+
+  </body>
+</html>

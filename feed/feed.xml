@@ -5,12 +5,43 @@
 	
 	<link href="https://salta.to/feed/feed.xml" rel="self"/>
 	<link href="https://salta.to/"/>
-	<updated>2022-11-01T00:00:00Z</updated>
+	<updated>2026-05-14T00:00:00Z</updated>
 	<id>https://salta.to/</id>
 	<author>
 		<name>Joop Laan</name>
 		<email>joop@salta.to</email>
 	</author>
+	
+	<entry>
+		<title>Introducing Ceylan</title>
+		<link href="https://salta.to/posts/2026-05-14-introducing-ceylan/"/>
+		<updated>2026-05-14T00:00:00Z</updated>
+		<id>https://salta.to/posts/2026-05-14-introducing-ceylan/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://salta.to/img/antelope-2.jpg&quot; alt=&quot;Antelope&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;small-view&quot;&gt;
+&lt;p&gt;Today I&#39;m releasing &lt;strong&gt;Ceylan&lt;/strong&gt;, a macOS app for translating long, careful texts entirely on your own machine. No cloud, no accounts, no telemetry — your words never leave the Mac in front of you.&lt;/p&gt;
+&lt;p&gt;Ceylan started as a favor. A friend — Ahu, a literary translator — needed to translate drafts of unpublished writing and (rightly) didn&#39;t want to paste them into anyone&#39;s web form. The free tools all wanted her text in exchange for the translation. So I built her something that didn&#39;t.&lt;/p&gt;
+&lt;h2 id=&quot;what-s-in-it&quot; tabindex=&quot;-1&quot;&gt;What&#39;s in it &lt;a class=&quot;direct-link&quot; href=&quot;https://salta.to/posts/2026-05-14-introducing-ceylan/#what-s-in-it&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Three on-device engines you can switch between per passage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Apple Translation&lt;/strong&gt; — instant, offline once language packs are downloaded. Great for first drafts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MLX models&lt;/strong&gt; — translation-tuned local models (TranslateGemma, Qwen) running on Apple Silicon. Better literary nuance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ollama&lt;/strong&gt; — if you already run it, Ceylan plugs into local models like aya-expanse for the heaviest, most considered output.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;None of them call out to the internet while translating.&lt;/p&gt;
+&lt;p&gt;On top of that: side-by-side Review mode, a Glossary that locks character names across the whole document, searchable local History, live word/character counts, and import/export for Pages, Word, RTF and Markdown. Sixteen languages, paired any direction.&lt;/p&gt;
+&lt;h2 id=&quot;privacy-in-one-paragraph&quot; tabindex=&quot;-1&quot;&gt;Privacy in one paragraph &lt;a class=&quot;direct-link&quot; href=&quot;https://salta.to/posts/2026-05-14-introducing-ceylan/#privacy-in-one-paragraph&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;No analytics. No telemetry. No accounts. No internet calls during translation. Model downloads are one-time, straight from Hugging Face or Ollama&#39;s registry. Everything else lives in &lt;code&gt;~/Library/Application Support/Ceylan/&lt;/code&gt; on your own machine. Delete the app and your work goes with it.&lt;/p&gt;
+&lt;h2 id=&quot;try-it&quot; tabindex=&quot;-1&quot;&gt;Try it &lt;a class=&quot;direct-link&quot; href=&quot;https://salta.to/posts/2026-05-14-introducing-ceylan/#try-it&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Ceylan is free and requires macOS 14.4 or later.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://salta.to/ceylan/&quot;&gt;Read the full page →&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://salta.to/downloads/Ceylan.dmg&quot;&gt;Download Ceylan.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Made with ❤️ in Amsterdam Noord. For everyone whose drafts deserve a quieter desk.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Geolocation API</title>
