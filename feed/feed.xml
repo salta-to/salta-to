@@ -20,7 +20,7 @@
 		<content type="html">&lt;p&gt;&lt;img src=&quot;https://salta.to/img/antelope-2.jpg&quot; alt=&quot;Antelope&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;small-view&quot;&gt;
 &lt;p&gt;Today I&#39;m releasing &lt;strong&gt;Ceylan&lt;/strong&gt;, a macOS app for translating long, careful texts entirely on your own machine. No cloud, no accounts, no telemetry — your words never leave the Mac in front of you.&lt;/p&gt;
-&lt;p&gt;Ceylan started as a favor. A friend — Ahu, a literary translator — needed to translate drafts of unpublished writing and (rightly) didn&#39;t want to paste them into anyone&#39;s web form. The free tools all wanted her text in exchange for the translation. So I built her something that didn&#39;t.&lt;/p&gt;
+&lt;p&gt;Ceylan started as a favor. A friend needed to translate drafts of unpublished writing and (rightly) didn&#39;t want to paste them into anyone&#39;s web form. The free tools all wanted her text in exchange for the translation. So I built her something that didn&#39;t.&lt;/p&gt;
 &lt;h2 id=&quot;what-s-in-it&quot; tabindex=&quot;-1&quot;&gt;What&#39;s in it &lt;a class=&quot;direct-link&quot; href=&quot;https://salta.to/posts/2026-05-14-introducing-ceylan/#what-s-in-it&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Three on-device engines you can switch between per passage:&lt;/p&gt;
 &lt;ul&gt;
