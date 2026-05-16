@@ -1,0 +1,109 @@
+Ceylan — Changelog
+==================
+
+
+1.1.0 — 2026-05-15
+------------------
+
+Following the first round of real-world testing, this release addresses
+the most-visible issues we ran into and adds a few small comforts.
+
+Fixed
+- Apple Translation: the translator could only translate once per launch
+  and required restarting the app. It now correctly re-arms on every click
+  for any language pair.
+- MLX models: translation stopped after the first chunk and never advanced
+  to the next. The engine now correctly transitions back to .ready before
+  the user is told the stream finished.
+- MLX (translategemma family): the model would run away producing pages
+  of nonsense output ("Happy hour" pretexts, advertising copy, etc.).
+  Two underlying causes addressed: a broken Jinja chat template now has
+  a manual Gemma chat-template fallback so the model knows when to stop,
+  and our stop-sequence detector now fires on the first <end_of_turn>
+  marker (previously needed two occurrences and never fired).
+- Loading indicator: selecting an MLX model showed no feedback even
+  though loading takes several seconds. The bottom bar now shows
+  "Loading <model>…" with a live progress bar from the moment a model
+  is chosen until it's ready.
+- Window layout: the bottom bar was overlapping the editor area, hiding
+  the last lines of source/translation as well as the per-pane word and
+  character counts. The detail layout was restructured so the bottom
+  bar takes its own slice and never covers content.
+- Models dropdown: installed MLX models were missing from the main-
+  window dropdown until the Models window had been opened. The disk
+  scan now runs on launch.
+- Apple Translation: localized translategemma's chat template fallback
+  with the same anti-injection guard as the main prompt so titles like
+  "Happy hour" are no longer interpreted as instructions.
+- Ollama: silenced IPv6 connection-refused noise in the Xcode console
+  by binding directly to 127.0.0.1.
+
+Added
+- Clear button in the source pane (⌘⌫) to wipe both panes and any
+  lingering error in one click.
+- Review mode now hides the continuous source pane entirely and gives
+  the paragraph-aligned source/translation columns the full window
+  width — three equal columns at default zoom.
+- Default window size bumped to 1280 × 820 so long literary passages
+  have room to breathe.
+- Translate button is disabled during model loading so accidental
+  clicks no longer happen.
+
+Other
+- Models dropdown shows installed local models the moment the app
+  launches.
+- Console output is much cleaner for support sessions.
+
+
+1.0.0 — 2026-05-14
+------------------
+
+Initial release.
+
+Ceylan is a macOS app for translating literary work entirely on-device.
+Made first for one translator in Amsterdam, then opened up.
+
+Engines
+- Apple Translation (macOS 14.4+) — built-in, instant, offline once
+  language packs are downloaded.
+- MLX models — Apple Silicon-optimized translation models such as
+  translategemma-4b/12b and Qwen running locally via Apple's MLX.
+- Ollama — optional integration for users running their own local
+  Ollama instance with models such as aya-expanse:8b.
+
+Languages
+- Sixteen languages, pairable in any direction: Turkish, English,
+  Dutch, French, German, Spanish, Italian, Portuguese, Polish, Russian,
+  Greek, Arabic, Hebrew, Japanese, Korean, Chinese.
+
+Workflow
+- Side-by-side source / translation editors with live word and
+  character counts.
+- Review mode for paragraph-aligned editing: refine each translated
+  paragraph next to its source.
+- Glossary per language pair — character names and recurring terms
+  rendered consistently across every chunk.
+- History sidebar — every translation kept locally, searchable,
+  never synced.
+- Import: .txt, .md, .rtf, .docx, .doc, .html, .htm, .odt, .pages
+  (drag-and-drop or file picker).
+- Export: .txt, .md, .docx, .rtf, .pages.
+
+Localization
+- Full Dutch and Turkish translations; system-language aware.
+
+Privacy
+- All translations happen on the user's Mac. No analytics, no
+  telemetry, no accounts, no internet calls during translation. Model
+  downloads (one-time) go directly to Hugging Face or Ollama's
+  registry.
+
+Other niceties
+- Drag-and-drop files onto the source pane.
+- ⇧⌘Y to swap languages.
+- ⌘+ / ⌘− to adjust editor font size; ⌘0 to reset.
+- ⌘R to toggle Review.
+- ⌘C to copy translation, with a brief "Copied!" confirmation.
+- A small moon for Ahu.
+
+Made with love in Amsterdam Noord.

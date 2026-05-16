@@ -416,3 +416,8 @@ a[href].ceylan-card:visited {
   padding: 0;
   word-break: break-all;
 }
+.ceylan-license {
+  margin: -1rem 0 2rem;
+  font-size: 0.85em;
+  color: var(--color-gray-50);
+}
