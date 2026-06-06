@@ -2,6 +2,46 @@ Ceylan — Changelog
 ==================
 
 
+1.2.0 — 2026-06-07
+------------------
+
+The big news this release: Ceylan can now update itself. Once you're
+on 1.2.0, future versions arrive in the background and a friendly
+panel asks before installing. Along with that, a handful of small
+improvements to language selection.
+
+Added
+- Automatic updates via Sparkle. A "Check for Updates…" menu item
+  lives under the app menu, and Ceylan also looks for new versions
+  in the background once a day. Updates are cryptographically
+  verified before they're installed.
+- Regional English variants in the language pickers: English (USA),
+  English (UK), English (AU), and English (CA), alongside the
+  existing generic English. Apple Translation uses the right
+  regional model; MLX and Ollama prompts say "American English",
+  "British English", etc. Glossaries are kept separately per
+  variant.
+- Source and target language are now remembered between launches.
+  On a fresh install Ceylan picks your macOS preferred language for
+  the source and a sensible counterpart for the target instead of
+  defaulting to Turkish for everyone.
+- Language detection on paste and typing. The same blue "detected"
+  pill that appears on file import now also pops up when you paste
+  or type a substantial passage in a different language, and
+  switches the source picker for you. Only kicks in on fresh
+  entries — loading a saved translation never overrides its stored
+  language.
+- The Translate button is now styled as the primary action: filled
+  with the accent colour when there's text to translate, dimmed
+  when there isn't.
+
+Fixed
+- It's no longer possible to pick the same base language on both
+  sides. Combinations like English → British English, which Apple
+  Translation refuses, are hidden from the pickers, and any
+  previously-saved bad pair is healed on launch.
+
+
 1.1.0 — 2026-05-15
 ------------------
 
