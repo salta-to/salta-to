@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Ceylan</title>
+        <link>https://salta.to/downloads/ceylan-updates.xml</link>
+        <description>Most recent updates to Ceylan.</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.1.0</title>
+            <pubDate>Fri, 15 May 2026 12:00:00 +0200</pubDate>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <p>Following the first round of real-world testing,
+                this release addresses the most-visible issues and
+                adds a few small comforts.</p>
+
+                <h3>Fixed</h3>
+                <ul>
+                    <li>Apple Translation: re-arms on every click for any language pair.</li>
+                    <li>MLX models: translation now advances past the first chunk.</li>
+                    <li>MLX (translategemma family): no longer runs away with nonsense output — Gemma chat-template fallback and corrected stop-sequence detection.</li>
+                    <li>Loading indicator: shows "Loading &lt;model&gt;…" with a live progress bar.</li>
+                    <li>Window layout: bottom bar no longer overlaps the editors.</li>
+                    <li>Models dropdown: installed MLX models appear on launch.</li>
+                    <li>Ollama: silenced IPv6 console noise.</li>
+                </ul>
+
+                <h3>Added</h3>
+                <ul>
+                    <li>Clear button in the source pane (⌘⌫).</li>
+                    <li>Review mode hides the continuous source pane and gives all three paragraph columns equal width.</li>
+                    <li>Default window size bumped to 1280 × 820.</li>
+                    <li>Translate button disabled during model loading.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://salta.to/downloads/Ceylan-1.1.0.dmg"
+                sparkle:edSignature="REPLACE_WITH_ED_SIGNATURE"
+                length="REPLACE_WITH_FILE_SIZE_IN_BYTES"
+                type="application/octet-stream" />
+        </item>
+
+    </channel>
+</rss>
