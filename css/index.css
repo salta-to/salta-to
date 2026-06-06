@@ -203,7 +203,7 @@ a[href].post-tag:visited {
 }
 a[href].post-tag:hover,
 a[href].post-tag:focus {
-  background-color: var(--color-gray-20);
+  background-color: rgba(127, 127, 127, 0.15);
 }
 .postlist-item > .post-tag {
   align-self: center;
@@ -346,7 +346,9 @@ blockquote {
 }
 .ceylan-card:hover,
 .ceylan-card:focus {
-  background-color: var(--color-gray-20);
+  /* Neutral translucent tint: darkens on light bg, lightens on dark bg,
+     so text contrast holds in both themes. */
+  background-color: rgba(127, 127, 127, 0.15);
 }
 .ceylan-card h2 {
   margin: 0 0 0.25rem;
@@ -384,7 +386,7 @@ a[href].ceylan-card:visited {
 }
 .ceylan-download:hover,
 .ceylan-download:focus {
-  background-color: var(--color-gray-20);
+  background-color: rgba(127, 127, 127, 0.15);
 }
 .ceylan-meta {
   display: inline-block;
