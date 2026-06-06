@@ -2,6 +2,14 @@ Ceylan — Changelog
 ==================
 
 
+1.2.1 — 2026-06-07
+------------------
+
+Small follow-up to 1.2.0:
+- Dutch ("Zoek naar updates…") and Turkish ("Güncellemeleri Denetle…")
+  translations for the Check for Updates menu item.
+
+
 1.2.0 — 2026-06-07
 ------------------
 
