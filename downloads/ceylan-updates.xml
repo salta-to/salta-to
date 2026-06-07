@@ -9,6 +9,22 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.3.0</title>
+            <pubDate>Sun, 07 Jun 2026 12:13:50 +0200</pubDate>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <p>See <a href="https://salta.to/downloads/CHANGELOG.txt">the changelog</a> for what's new.</p>
+            ]]></description>
+            <enclosure
+                url="https://salta.to/downloads/Ceylan-1.3.0.dmg"
+                sparkle:edSignature="tCXjdh+wVnYLK7V4kfOig3+UXyBLw1h0VlgnD23/KMF8UrBgnoDM1AMwCsDryO5A4rya3yPSfb5ACWgChnDeDg=="
+                length="11193531"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.2.2</title>
             <pubDate>Sun, 07 Jun 2026 02:34:40 +0200</pubDate>
             <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>

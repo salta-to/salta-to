@@ -2,6 +2,48 @@ Ceylan — Changelog
 ==================
 
 
+1.3.0 — 2026-06-07
+------------------
+
+A bigger release with two new core features, a friendlier first run,
+and a fresh face.
+
+Added
+- Compare mode. A new "Compare" toggle in the toolbar runs Apple
+  Translation, your MLX model, and Ollama in parallel on the same
+  source, side by side. Columns scroll in lockstep, paragraph by
+  paragraph. A Draft pane underneath shows what you're building —
+  pick paragraphs with "Use this paragraph" or take a whole column
+  with one click. Apple Translation auto-starts since it's instant;
+  MLX and Ollama wait for an explicit Translate click. If only one
+  engine is available, a banner offers a one-click route to the
+  Models window so you can add another.
+- First-launch wizard. Replaces the old single-screen welcome with a
+  five-step guided setup: privacy intro → pick your languages →
+  choose Apple Translation or download an MLX model sized to your
+  Mac's RAM → optional download with progress → a try-it-out step
+  that drops a short sample sentence into the source pane in your
+  chosen language. Existing users won't see it.
+- Language coverage per model in the Models window. Each recommended
+  model now shows the languages it officially supports (Llama-3.2,
+  for instance, only covers six of Ceylan's sixteen), so you can
+  spot a misfit before you download.
+- A new app icon — a gazelle silhouette with a moon — replacing the
+  antelope. Also a nod to the moon easter egg.
+
+Fixed
+- Compare mode could show Apple Translation twice when Apple was the
+  active engine. The duplicate column is gone.
+- The Review toolbar button's label wasn't translated. Now it is, in
+  Dutch and Turkish.
+
+Other
+- Dutch and Turkish translations for all the new strings: wizard
+  copy, Compare column buttons, Draft pane, the "Add another engine"
+  banner, the four Review toggle labels, and the language-coverage
+  subtitle.
+
+
 1.2.2 — 2026-06-07
 ------------------
 
