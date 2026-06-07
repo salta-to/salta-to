@@ -2,6 +2,32 @@ Ceylan — Changelog
 ==================
 
 
+1.2.2 — 2026-06-07
+------------------
+
+A handful of improvements around picking and downloading MLX models:
+
+Added
+- More pre-tested models in the Models window: Llama-3.2-3B,
+  Mistral-Nemo Instruct, alongside the existing TranslateGemma 4B/12B
+  and Qwen 4B/7B picks.
+- The Models window now splits its suggestions into two sections:
+  "Recommended for this Mac" (models that fit in your RAM) and
+  "Larger than this Mac's RAM" (visible but flagged), so you can see
+  what's available without scrolling past unusable options.
+
+Fixed
+- Pre-flight check before download. Ceylan now reads just a few KB of
+  the model's config.json from Hugging Face before pulling any
+  weights, and refuses to download models whose architecture the MLX
+  runner can't load. Stops you from spending bandwidth on
+  multi-gigabyte downloads that will only fail at first use.
+
+Other
+- Dutch and Turkish translations for the new menu items and section
+  headings.
+
+
 1.2.1 — 2026-06-07
 ------------------
 
