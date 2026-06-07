@@ -27,11 +27,6 @@
   </url>
   
   <url>
-    <loc>https://salta.to/tags/test/</loc>
-    <lastmod>2022-10-28</lastmod>
-  </url>
-  
-  <url>
     <loc>https://salta.to/tags/web-dev/</loc>
     <lastmod>2022-10-28</lastmod>
   </url>
@@ -53,6 +48,11 @@
   
   <url>
     <loc>https://salta.to/tags/announcements/</loc>
+    <lastmod>2022-10-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://salta.to/tags/test/</loc>
     <lastmod>2022-10-28</lastmod>
   </url>
   
