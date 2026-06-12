@@ -2,6 +2,39 @@ Ceylan — Changelog
 ==================
 
 
+1.4.0 — 2026-06-12
+------------------
+
+Two ways to look at the same passage from more than one angle.
+
+Added
+- Translate alternatives. A small wand button sits above each
+  target paragraph in Review mode (and on every MLX/Ollama column
+  in Compare). Click it and Ceylan re-translates that one paragraph
+  three ways at three temperatures — faithful (0.2), balanced
+  (0.5), creative (0.8). Each card has a "Try again" button if you
+  want a fresh take on just that variant, and "Use this" drops the
+  picked translation back into your paragraph. Apple Translation is
+  deterministic, so the button is hidden when Apple is the active
+  engine.
+- Compare with a second MLX model. A new "+ Add MLX model" button
+  in Compare mode lets you load any other installed MLX model into
+  its own column. MLX runs one model at a time, so adding the new
+  one swaps it in and translates against the same source — but the
+  previously-loaded column keeps the translation it already
+  produced, read-only. Up to four columns total: Apple + two MLX
+  models + Ollama.
+
+Fixed
+- The first two alternative variants used to fail with "Engine is
+  not ready" the first time you opened the sheet right after a
+  model swap; "Try again" worked around it. Ceylan now retries a
+  few times under the hood, so the sheet just works on first open.
+
+Other
+- Dutch and Turkish translations for all the new strings.
+
+
 1.3.0 — 2026-06-07
 ------------------
 
